@@ -25,3 +25,4 @@ STEP:The simple_get() function accepts a single url argument. It then makes a GE
 OUTCOME:Web scraping is a big field, and we have just finished a brief tour of that field, using Python as our guide. Using web scraping we can find the no. Of links,hit the most no. Of times,or gather information regarding data copied from a webpage etc..Some android apps work on the same feature as well.
 
   	 	
+warning:For extraction of webpage we use web scrapping which is illegal to perform on some websites
