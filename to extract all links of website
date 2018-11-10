@@ -1,0 +1,10 @@
+from BeautifulSoup import BeautifulSoup
+import urllib2
+ 
+url = '''url goes here'''
+data = urllib2.urlopen(url).read()
+soup = BeautifulSoup(data)
+links = soup.findAll('a')
+ 
+for link in links:
+    print(link["href"])
