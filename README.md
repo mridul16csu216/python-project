@@ -1,2 +1,27 @@
 # python-project
 Extraction of hyperlinks of a website
+	PYTHON ASSIGNMENT
+MRIDUL KHATRI
+16CSU216
+
+                Project Title:To study about extraction of hyperlinks of a website.
+
+                
+                INTRODUCTION:In this assignment,we will study about the technique of web-scrapping.
+                                   We use this technique to extract and change the hyperlinks of the website.
+                                   Also we need web scraping for calculating the structured data on a          		                                   website,i.e. the amount of data 
+
+PROCEDURE:
+                           
+We can scrap web pages using the following steps in python:
+
+download webpage data (html)
+create beautifulsoup object and parse webpage data
+use soups method findAll to find all links by the a tag
+store all links in list
+NOTE-Beautifulsoap is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
+STEP:You first parse the raw HTML by passing it to the BeautifulSoup constructor. BeautifulSoup accepts multiple back-end parsers, but the standard back-end is 'html.parser', which you supply here as the second argument. (If you neglect to supply that 'html.parser', then the code will still work, but you will see a warning print to your screen.)
+STEP:The simple_get() function accepts a single url argument. It then makes a GET request to that URL. If nothing goes wrong, you end up with the raw HTML content for the page you requested. If there were any problems with your request (like the URL is bad, or the remote server is down), then your function returns.
+OUTCOME:Web scraping is a big field, and we have just finished a brief tour of that field, using Python as our guide. Using web scraping we can find the no. Of links,hit the most no. Of times,or gather information regarding data copied from a webpage etc..Some android apps work on the same feature as well.
+
+  	 	
